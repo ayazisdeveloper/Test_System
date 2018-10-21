@@ -5,6 +5,10 @@ include('header.php');
 
 
 <?php
+	if(10 == 10){
+		
+		echo 'equal';
+	}
 
 
 	if(isset($_REQUEST['page'])){
