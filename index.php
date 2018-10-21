@@ -5,12 +5,6 @@ include('header.php');
 
 
 <?php
-	if(10 == 10){
-		
-		echo 'equal';
-	}
-
-
 	if(isset($_REQUEST['page'])){
 			if(file_exists('public/'.$_REQUEST['page'].'.php')){
 				include('public/'.$_REQUEST['page'].'.php');
