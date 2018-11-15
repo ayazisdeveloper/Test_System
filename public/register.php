@@ -1,5 +1,10 @@
 <?php
-class db{
+
+/* Need autoload file which will give us connection and constant */
+$Includes_Path = $_SERVER['DOCUMENT_ROOT'] . '/Test_System/includes';
+require($Includes_Path . '/autoload.php');
+
+class register extends database{
 	function insert(){
 		
 		if(isset($_REQUEST['register'])){
@@ -15,7 +20,7 @@ class db{
 		
 	}
 }
-$call = new db();
+$call = new register();
 $call->insert();
 ?>
 
