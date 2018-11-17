@@ -1,4 +1,4 @@
 <?php
-require('includes/connection.php');
-require('includes/constant.php');
+require('connection.php');
+require('constant.php');
 ?>
